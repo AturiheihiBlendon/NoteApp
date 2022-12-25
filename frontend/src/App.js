@@ -3,7 +3,7 @@ import './App.css';
 import { useEffect, useState} from 'react'
 import Note from './components/Note';
 
-const baseUrl = 'http://127.0.0.1:8000'
+const baseUrl = 'http://blendon.pythonanywhere.com/'
 
 function App() {
   const [visibe, setVisible] = useState(false);
