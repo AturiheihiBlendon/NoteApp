@@ -1,0 +1,118 @@
+.header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  padding: 25px;
+}
+.title {
+  font-size: 25px;
+}
+.add-section{
+  padding: 30px;
+}
+.add-btn {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.notes {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center-notes {
+  font-size: 40px;
+}
+.modal {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.322);
+}
+
+.modal-not {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.322);
+  display: none;
+}
+.form {
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  height: 500px;
+  background-color: whitesmoke;
+  border-radius: 30px;
+}
+.form-header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-header-text {
+  font-size: 30px;
+}
+.close-btn {
+  color: red;
+  font-size: 25px;
+}
+.form-group {
+  padding: 10px;
+  margin: 10px;
+}
+
+label {
+  font-size: 20px;
+}
+.form-control {
+  padding: 15px;
+  width: 100%;
+  margin: 10px;
+}
+.btn{
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.note {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+.notes-list {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.note-header {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.note-title {
+  color: violet;
+}
+.close {
+  color: red;
+}
+.note-content {
+  padding-top: 10px;
+}
